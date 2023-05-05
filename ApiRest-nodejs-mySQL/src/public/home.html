@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>API TARIFAS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="./images/icon.png">
+  </head>
+  <body class="bg-info">
+    <div class="mt-5 mb-5">
+      <h1 class="text-center fst-italic fw-bolder">API PARQUEADERO!</h1>
+      <div class="mx-2 mt-3 row justify-content-center">
+        <div class="card" style="width: 18rem">
+          <img src="./images/clientes.avif" style="width: 13rem;" class="card-img-top rounded mx-auto d-block" alt="clientes" />
+          <div class="card-body">
+            <h5 class="card-title fst-italic">CLIENTES</h5>
+            <p class="card-text">
+              <p >MODULOS DE CLIENTES</p>
+              <p>GET: /clientes   -> obtener clientes</p>
+              <p>GET: /clientes/:id   -> obtener un solo cliente por id</p>
+              <p>POST: /clientes      -> crear un cliente</p>
+              <p>PUT: /clientes/:id   -> actualizar un cliente</p>
+              <p>DELETE: /clientes/:id    -> borrar un cliente</p>
+            </p>
+            <a href="/api/clientes" target="_blank" class="btn btn-warning">ver clientes</a>
+          </div>
+        </div>
+
+        <div class="card ms-1" style="width: 18rem">
+          <img src="./images/tipovehiculos.jpg" style="width: 15rem;"  class="card-img-top rounded mx-auto d-block" alt="tipoVehiculo" />
+          <div class="card-body">
+            <h5 class="card-title fst-italic">TIPO VEHICULOS</h5>
+            <p class="card-text">
+              <p>MODULOS DE TIPOS DE VEHICULOS</p>
+              <p>GET: /tipoVehiculo/:id   -> obtener tipos de vehiculo</p>
+              <p>POST: /tipoVehiculo      -> crear un tipo de vehiculo</p>
+              <p>PUT: /tipoVehiculo/:id   -> actualizar un tipo de vehiculo</p>
+              <p>DELETE: /tipoVehiculo/:id    -> borrar un tipo de vehiculo</p>
+            </p>
+            <div class="pt-4"><a href="api/tipoVehiculo" target="_blank" class="btn btn-warning">ver tipos de vehiculos</a></div>
+            
+          </div>
+        </div>
+
+        <div class="card ms-1 " style="width: 18rem">
+          <img src="./images/tarifas.jpg" style="width: 13rem;" class="card-img-top " alt="tarifas" />
+          <div class="card-body ">
+            <h5 class="card-title fst-italic">TARIFAS</h5>
+            <p class="card-text">
+              <p>MODULOS DE TARIFAS</p>
+              <p>GET: /tarifas/  -> obtener tarifas</p>
+              <p>GET: /tarifas/:id     -> obtener una solo tarifa</p>
+              <p>POST: /tarifas      -> crear una tarifa</p>
+              <p>PUT: /tarifas/:id   -> actualizar una tarifa</p>
+              <p>DELETE: /tarifas/:id    -> borrar una tarifa</p>
+            </p>
+            <div class="pt-4"><a href="api/tarifas" target="_blank" class="btn btn-warning">ver tarifas</a></div>
+            
+          </div>
+        </div>
+
+        <div class="card ms-1" style="width: 18rem">
+          <img src="./images/vehiculos.jpg"  class="card-img-top text-center" alt="vehiculos" />
+          <div class="card-body">
+            <h5 class="card-title fst-italic">VEHICULOS</h5>
+            <p class="card-text">
+              <p>MODULOS DE VEHICULOS</p>
+              <p>GET: /vehiculos/  -> obtener vehiculos</p>
+              <p>GET: /vehiculos/:id     -> obtener una vehiculo</p>
+              <p>POST: /vehiculos      -> crear una vehiculo</p>
+              <p>PUT: /vehiculos/:id   -> actualizar una vehiculo</p>
+              <p>DELETE: /vehiculos/:id    -> borrar un vehiculo</p>
+            </p>
+            <a href="api/vehiculos" target="_blank" class="btn btn-warning">ver vehiculos</a>
+          </div>
+        </div>
+
+        <div class="card ms-1" style="width: 18rem">
+          <img src="./images/factura.jpg"  style="width: 13rem;"  class="card-img-top rounded mx-auto d-block" alt="factura" />
+          <div class="card-body">
+            <h5 class="card-title fst-italic">FACTURA</h5>
+            <p class="card-text">
+              <p>MODULOS DE VEHICULOS</p>
+              <p>GET: /vehiculos/  -> obtener vehiculos</p>
+              <p>GET: /vehiculos/:id     -> obtener una vehiculo</p>
+              <p>POST: /vehiculos      -> crear una vehiculo</p>
+              <p>PUT: /vehiculos/:id   -> actualizar una vehiculo</p>
+              <p>DELETE: /vehiculos/:id    -> borrar un vehiculo</p>
+            </p>
+            <a href="api/facturas" target="_blank" class="btn btn-warning">ver facturas</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
